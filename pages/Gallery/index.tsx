@@ -1,4 +1,4 @@
-import Homepage from '../../components/Home'
+
 import Premium from '../../components/Premium'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
