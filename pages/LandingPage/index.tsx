@@ -13,7 +13,7 @@ const Landingpage = () =>
 return(
     <div>
     <Homepage/>
-    <Premium/>
+    <Premium text="Our Premium Collection"/>
     <Flash />
     <Homebuttom />
     <div className="mt-[8100px] left-0">

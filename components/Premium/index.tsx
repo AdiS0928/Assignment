@@ -2,7 +2,7 @@ import Card from '../Premiumcard'
 
 import { useEffect, useState } from 'react'
 
-const Premium = () =>
+const Premium = (props:any) =>
 {
     // const [User, setUser] = useState([]);
     // useEffect(()=>{
@@ -22,7 +22,7 @@ const Premium = () =>
 return(
     <div className="bg-slate-100 absolute w-[2440px] h-[2000px] top-[965px]">
     <div className="Premium ml-[-10vh]">
-        <p className="PremiumHead">Our Premium Collection</p>
+        <p className="PremiumHead">{props.text}</p>
         <div className="premiumcat ml-[15vh]">
             <p className="T">T-Shirt</p>
             <p className="skirt">Skirt</p>
