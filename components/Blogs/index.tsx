@@ -1,0 +1,26 @@
+import Post from "../Post";
+
+const Blogs = () =>
+{
+    return(
+        <div className="blog  flex flex-row">
+            <div className="mb-[20px]">
+                <Post/>
+            </div>
+            <div className="mt-[700px] ml-[95vh]">
+                <Post/>
+            </div>
+            <div className="mb-[70px] ">
+                <Post/>
+            </div>
+            <div className="mt-[700px] ml-[-623px]">
+                <Post/>
+            </div>
+            <p className="see mt-[-13vh] ml-[150vh]">See more</p>
+            <p className="bloghead mt-[-25vh]">Get Better Insights from Our Articles</p>
+            
+        </div>
+    )
+}
+
+export default Blogs;

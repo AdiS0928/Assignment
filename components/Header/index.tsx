@@ -1,8 +1,8 @@
 const Header = () => {
     return(
     <div className="navBar">
-    <div className="w-[1440px] h-[93px] left-0 top-0 absolute bg-[#ffffff]">
-    <div className="w-[1440px] h-[93px] left-0 top-0 absolute bg-[#ffffff]">
+    <div className="w-[2440px] h-[93px] left-0 top-0 absolute bg-[#ffffff]">
+    <div className="w-[2440px] h-[93px] left-0 top-0 absolute bg-[#ffffff]">
         <div className="Logo">
         <h1 >Dealerz.</h1>
         </div>
@@ -23,12 +23,12 @@ const Header = () => {
         </div>
     </div>
     </div>
-<div className="absolute w-[1440px] h-[112px] left-0 top-[93px] bg-slate-100">
+<div className="absolute w-[2440px] h-[112px] left-0 top-[93px] bg-slate-100">
         <div className="w-[256px] h-[19px] left-[94p] top-[140px]">
-        <p className="shop">Shop</p>
-        <p className="promo">Promo</p>
-        <p className="about">About</p>
-        <p className="blog">Blog</p>
+        <button className="shop hover:cursor-pointer">Shop</button>
+        <p className="promo hover:cursor-pointer">Promo</p>
+        <p className="about hover:cursor-pointer">About</p>
+        <p className="blog mt-[7vh] ml-[50vh] hover:cursor-pointer">Blog</p>
     </div>
 
     <div className="w-[248px] h-[44px] left-[1088px] top-[121px] absolute">
@@ -42,16 +42,16 @@ const Header = () => {
         
         </div>
         <div className="absolute w-[32px] h-[32px] left-[72px] top-[-80px]">
-            <img src="/Vectorcart.png" alt="" className="cart"/>
+            <img src="/Vectorcart.png" alt="" className="cart hover:cursor-pointer"/>
         </div>
         <div className="absolute w-[32px] h-[32px] left-[0px] top-[-80px]">
-            <img src="/Vectorheart.png" alt="" className="heart"/>
+            <img src="/Vectorheart.png" alt="" className="heart hover:cursor-pointer"/>
         </div>
         <div className="absolute w-[32px] h-[32px] left-[216px] top-[-80px]">
-            <img src="/Vectorbell.png" alt="" className="not"/>
+            <img src="/Vectorbell.png" alt="" className="not hover:cursor-pointer"/>
         </div>
         <div className="absolute w-[32px] h-[32px] left-[144px] top-[-80px]">
-            <div className="group">
+            <div className="group hover:cursor-pointer">
             <img src="/profiletop.png" alt="" className="usertop"/>
             <img src="/profile.png" alt="" className="user" />
             </div>

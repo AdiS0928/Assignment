@@ -1,18 +1,36 @@
 import Card from '../Premiumcard'
+
+import { useEffect, useState } from 'react'
+
 const Premium = () =>
 {
+    // const [User, setUser] = useState([]);
+    // useEffect(()=>{
+    //     l();
+    //     console.log(User);
+
+    // },[])
+
+    // async function l() {
+    //     const res= await fetch('https://fakestoreapi.com/products?limit=5')
+    //     const data = res.json();
+    //     data.then((value) => {
+    //         setUser(value);
+    //     })
+    // } 
+    // console.log(products)
 return(
-    <div className="bg-slate-100 absolute w-[1440px] h-[2000px] top-[965px]">
-    <div className="Premium">
+    <div className="bg-slate-100 absolute w-[2440px] h-[2000px] top-[965px]">
+    <div className="Premium ml-[-10vh]">
         <p className="PremiumHead">Our Premium Collection</p>
-        <div className="premiumcat">
+        <div className="premiumcat ml-[15vh]">
             <p className="T">T-Shirt</p>
             <p className="skirt">Skirt</p>
             <p className="short">Short</p>
             <p className="playsuit">Playsuit</p>
             <p className="dressed">Dressed</p>
             <p className="products">Products</p>
-            <p className="coats">Coats & Jackets</p>
+            <p className="coats ">Coats & Jackets</p>
         </div>
         <button className="Premiumbut">
             <p className="clickbut">Find out more</p>

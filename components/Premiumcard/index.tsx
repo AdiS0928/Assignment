@@ -5,12 +5,7 @@ return(
         <img src="arrow.png" alt="" className="arrow" />
         <button className="cardbtn">
 
-            <img src="/Containerround.png" alt="" className="roundcon"/>
-                <div className="arright">
-                    
-                </div>
-                
-                <div className="rectangle" />
+            <img src="/arrButton.png" alt="" className="roundcon"/>
             
         </button>
         <p className="cardhead">Tropical Suit</p>
