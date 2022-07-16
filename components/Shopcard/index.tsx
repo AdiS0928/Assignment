@@ -14,7 +14,7 @@ return(
         watchmenow
         </p>
 
-        <p className="shopcardprice mt-[47vh] ml-[28vh]">
+        <p className="shopcardprice mt-[48vh] ml-[28vh]">
         ${props.price}
         </p>
         <div className="flex mt-[40vh] ml-[24vh]">
@@ -35,8 +35,8 @@ return(
         </img>
         </div>
         <button>
-        <img src="Background.png" className="ml-[55vh] mt-[-43vh]" />
-        <img src="heart.png" alt="" className="ml-[56vh] mt-[-2.7vh]" />
+        <img src="Background.png" className="ml-[53vh] mt-[-43vh]" />
+        <img src="heart.png" alt="" className="ml-[54vh] mt-[-2.7vh]" />
         </button>
 
         <img src={props.image} alt="" className="w-[150px] h-[150px] ml-[20vh] mt-[-43vh]"/>
