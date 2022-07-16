@@ -94,7 +94,7 @@ return(
             </div>
             <div className=" w-[2440px] h-[545px] ml-[-20vh] mt-[-118vh] bg-white">
             </div>
-            <div className="absolute top-[340vh] ml-[-25vh]">
+            <div className="absolute top-[310vh] ml-[-25vh]">
             <Flash />
             </div>
         </div>
