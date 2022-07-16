@@ -3,7 +3,7 @@ import Blogs from "../Blogs";
 import News from "../News";
 const Homebutton = () => {
 return(
-<div className="bg-slate-100 absolute w-[2440px] h-[4200px] top-[3600px] ">
+<div className="bg-slate-100 absolute w-[2440px] h-[4200px] top-[3900px] ">
     <div className="w-[180vh] h-[109.8vh] ml-[20vh] mt-[30vh] ">
         <p className="read">Read Full Story</p>
         <div className="storyhead">
