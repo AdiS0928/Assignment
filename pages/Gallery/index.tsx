@@ -20,7 +20,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
         </div>
     <Premium text="Our Gallery"/>
 
-    <div className=' mt-[-5vh] ml-[20vh] bg-slate-100'>
+    <div className=' mt-[-10vh] ml-[20vh] bg-slate-100'>
     <Seller/>
     </div>
     
@@ -30,7 +30,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
     <div className='ml-[15vh] mt-[2ßvh]'>
     <News></News>
     </div>
-    <div className='w-[2440px] h-[600px] bg-slate-100 mt-[vh]'>
+    <div className='w-[2440px] h-[600px] bg-slate-100 mt-[2vh]'>
         
     </div>
  
