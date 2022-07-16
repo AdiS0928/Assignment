@@ -35,7 +35,7 @@ Our Brand
     <Blogs />
     </div>
 
-    <div className="mt-[110vh] ml-[16vh]">
+    <div className="mt-[100vh] ml-[16vh]">
     <News />
     </div>
 
