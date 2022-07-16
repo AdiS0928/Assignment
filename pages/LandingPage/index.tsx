@@ -14,7 +14,7 @@ return(
     <div>
     <Homepage/>
     <Premium text="Our Premium Collection"/>
-    <div className='mt-[450vh] ml-[-15vh] absolute'>
+    <div className='mt-[410vh] ml-[-15vh] absolute'>
 
     <Flash />
     </div>
