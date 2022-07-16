@@ -30,7 +30,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
     <div className='ml-[15vh] mt-[-10vh]'>
     <News></News>
     </div>
-    <div className='w-[2440px] h-[600px] bg-slate-100 mt-[30vh]'>
+    <div className='w-[2440px] h-[600px] bg-slate-100 mt-[35vh]'>
         
     </div>
  
