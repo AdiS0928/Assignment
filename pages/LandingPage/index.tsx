@@ -21,7 +21,7 @@ return(
     
 
     <Homebuttom />
-<div className='mt-[1250vh] absolute'>
+<div className='mt-[1150vh] absolute'>
     <Footer />
     </div>
     </div>
