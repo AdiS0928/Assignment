@@ -69,7 +69,7 @@ return(
                 <div className="imgholder11 mt-[10vh] ml-[42vh]"></div>
                 <div className="imgholder11 mt-[10vh] ml-[57vh]"></div>
 
-                <p className="reviewdesc ml-[12vh] mt-[25vh]">Thank you for the article that was made, it really provides insight and knowledge that I didn't know before.</p>
+                <p className="reviewdesc ml-[12vh] mt-[25vh]">Thank you for the article that was made, it really provides insight and knowledge that I didnt know before.</p>
                 
 
                 
@@ -88,7 +88,7 @@ return(
                 <div className="imgholder11 mt-[10vh] ml-[42vh]"></div>
                 <div className="imgholder11 mt-[10vh] ml-[57vh]"></div>
 
-                <p className="reviewdesc ml-[12vh] mt-[25vh]">Thank you for the article that was made, it really provides insight and knowledge that I didn't know before.</p>
+                <p className="reviewdesc ml-[12vh] mt-[25vh]">Thank you for the article that was made, it really provides insight and knowledge that I didnt know before.</p>
                 
                     
             </div>
