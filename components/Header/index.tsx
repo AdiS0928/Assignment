@@ -51,7 +51,7 @@ const Header = () => {
         <button className="shop hover:cursor-pointer" onClick={Shop}>Shop</button>
         <p className="promo hover:cursor-pointer" onClick={Promo}>Promo</p>
         <p className="about hover:cursor-pointer" onClick={Home}>About</p>
-        <p className="blog mt-[7vh] ml-[50vh] hover:cursor-pointer" onClick={Blog}>Blog</p>
+        <p className="blog mt-[6vh] ml-[45vh] hover:cursor-pointer" onClick={Blog}>Blog</p>
     </div>
 
     <div className="w-[248px] h-[44px] left-[1088px] top-[121px] absolute">
