@@ -14,7 +14,7 @@ return(
             <Hero text="Home Shopping, Your Choice!" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
         </div>
-        <div className='mt-[960px]'>
+        <div className='mt-[970px]'>
             <Shopbottom />
         </div>
 
