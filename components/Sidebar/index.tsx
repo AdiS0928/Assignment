@@ -1,6 +1,25 @@
 import Featurecard from "../Featurecard";
+import { useEffect } from "react";
+import { useState } from "react";
 const Sidebar = () =>
 {
+
+    const [User, setUser] = useState([{image:'',title:'',category:'',price:''},{image:'',title:'',category:'',price:''},{image:'',title:'',category:'',price:''},{image:'',title:'',category:'',price:''},{image:'',title:'',category:'',price:''},{image:'',title:'',category:'',price:''},{image:'',title:'',category:'',price:''},{image:'',title:'',category:'',price:''}]);
+    useEffect(()=>{
+        l();
+        console.log(User[1]);
+
+    },[])
+
+    async function l() {
+        const res= await fetch('https://fakestoreapi.com/products?limit=7')
+        const data = res.json();
+        data.then((value) => {
+            console.log(value)
+            setUser(value);
+        })
+    }
+
 return(
     <div className="w-[296px] h-[1312px]">
         <div className="shopbar mt-[20vh] ml-[15vh]">
@@ -63,22 +82,22 @@ return(
 
         </div>
                 <div className="mt-[35vh]">
-                <Featurecard />
+                <Featurecard image={User[0].image} name={User[0].title.split(' ').slice(0, 3).join(' ')} price={User[0].price}/>
                 </div>
                 <div className="mt-[5vh]">
-                <Featurecard />
+                <Featurecard image={User[1].image} name={User[1].title.split(' ').slice(0, 3).join(' ')} price={User[1].price}/>
                 </div>
                 <div className="mt-[5vh]">
-                <Featurecard />
+                <Featurecard image={User[2].image} name={User[2].title.split(' ').slice(0, 3).join(' ')} price={User[2].price}/>
                 </div>
                 <div className="mt-[5vh]">
-                <Featurecard />
+                <Featurecard image={User[3].image} name={User[3].title.split(' ').slice(0, 3).join(' ')} price={User[3].price}/>
                 </div>
                 <div className="mt-[5vh]">
-                <Featurecard />
+                <Featurecard image={User[4].image} name={User[4].title.split(' ').slice(0, 3).join(' ')} price={User[4].price}/>
                 </div>
-                <div className="mt-[5vh]">
-                <Featurecard />
+                <div className="mt-[5vh]" >
+                <Featurecard image={User[5].image} name={User[5].title.split(' ').slice(0, 3).join(' ')} price={User[5].price}/>
                 </div>
         </div>
 

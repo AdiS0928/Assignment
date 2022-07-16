@@ -1,15 +1,16 @@
-const card = () =>
+const card = (props:any) =>
 {
 return(
     <div className="Premiumcard bg-white">
+        <img src={props.image} alt="" className="w-[340px] h-[340px] ml-[4vh]"/>
         <img src="arrow.png" alt="" className="arrow" />
-        <button className="cardbtn">
+        <button className="cardbtn mt-[7vh]">
 
             <img src="/arrButton.png" alt="" className="roundcon"/>
             
         </button>
-        <p className="cardhead">Tropical Suit</p>
-        <p className="cardtop">Category Dress</p>
+        <p className="cardhead ml-[-5vh]">{props.name}</p>
+        <p className="cardtop">Category {props.cat}</p>
 
     </div>
 )

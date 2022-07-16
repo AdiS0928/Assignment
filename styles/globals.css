@@ -907,7 +907,7 @@ height: 58px;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 48px;
+font-size: 38px;
 line-height: 120%;
 top: 65vh;
 left: 5vw;
@@ -924,7 +924,7 @@ color: #11142D;
 .cardtop{
   
 position: absolute;
-width: 121px;
+width: 321px;
 height: 19px;
 top: 60vh;
 left: 6vh;
@@ -1935,7 +1935,7 @@ color: #11142D;
 
 .featurehead{
   position: absolute;
-  width: 129px;
+  width: 229px;
   height: 19px;
   
   /* Heading/H6 Bold */
@@ -2635,7 +2635,7 @@ border-radius: 4px;
 
 .cartcardhead{
   position: absolute;
-  width: 193px;
+  width: 293px;
   height: 29px;
 
   
@@ -2712,7 +2712,7 @@ border-radius: 4px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 62px;
+  font-size: 32px;
   line-height: 120%;
   /* or 74px */
   

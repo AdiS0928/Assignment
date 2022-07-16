@@ -1,4 +1,27 @@
+import {useRouter} from 'next/router'
+
 const Header = () => {
+    var Router = useRouter();
+    const Shop = () =>{
+        Router.push('/shop')
+    }
+
+    const Cart = () =>{
+        Router.push('/Cart')
+    }
+
+    const Home = () => {
+        Router.push('/')
+    }
+
+    const Promo = () =>
+    {
+        Router.push('/ProductDetail')
+    }
+    const Blog = () =>
+    {
+        Router.push('/Gallery')
+    }
     return(
     <div className="navBar">
     <div className="w-[2440px] h-[93px] left-0 top-0 absolute bg-[#ffffff]">
@@ -25,10 +48,10 @@ const Header = () => {
     </div>
 <div className="absolute w-[2440px] h-[112px] left-0 top-[93px] bg-slate-100">
         <div className="w-[256px] h-[19px] left-[94p] top-[140px]">
-        <button className="shop hover:cursor-pointer">Shop</button>
-        <p className="promo hover:cursor-pointer">Promo</p>
-        <p className="about hover:cursor-pointer">About</p>
-        <p className="blog mt-[7vh] ml-[50vh] hover:cursor-pointer">Blog</p>
+        <button className="shop hover:cursor-pointer" onClick={Shop}>Shop</button>
+        <p className="promo hover:cursor-pointer" onClick={Promo}>Promo</p>
+        <p className="about hover:cursor-pointer" onClick={Home}>About</p>
+        <p className="blog mt-[7vh] ml-[50vh] hover:cursor-pointer" onClick={Blog}>Blog</p>
     </div>
 
     <div className="w-[248px] h-[44px] left-[1088px] top-[121px] absolute">
@@ -42,7 +65,7 @@ const Header = () => {
         
         </div>
         <div className="absolute w-[32px] h-[32px] left-[72px] top-[-80px]">
-            <img src="/Vectorcart.png" alt="" className="cart hover:cursor-pointer"/>
+            <img src="/Vectorcart.png" alt="" className="cart hover:cursor-pointer" onClick={Cart}/>
         </div>
         <div className="absolute w-[32px] h-[32px] left-[0px] top-[-80px]">
             <img src="/Vectorheart.png" alt="" className="heart hover:cursor-pointer"/>
