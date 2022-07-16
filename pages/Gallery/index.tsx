@@ -24,7 +24,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
     <Seller/>
     </div>
     
-    <div className='w-[2440px] h-[600px] bg-slate-100 mt-[452vh]'>
+    <div className='w-[2440px] h-[600px] bg-slate-100 mt-[440vh]'>
         
     </div>
     <div className='ml-[15vh] mt-[-10vh]'>
