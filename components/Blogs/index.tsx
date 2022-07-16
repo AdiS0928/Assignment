@@ -3,11 +3,11 @@ import Post from "../Post";
 const Blogs = () =>
 {
     return(
-        <div className="blog  flex flex-row">
+        <div className="blog  flex ">
             <div className="mb-[20px]">
                 <Post/>
             </div>
-            <div className="mt-[700px] ml-[95vh]">
+            <div className="mt-[700px] ml-[105vh]">
                 <Post/>
             </div>
             <div className="mb-[70px] ml-[-10vh] ">
