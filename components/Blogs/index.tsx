@@ -10,7 +10,7 @@ const Blogs = () =>
             <div className="mt-[700px] ml-[95vh]">
                 <Post/>
             </div>
-            <div className="mb-[70px] ">
+            <div className="mb-[70px] ml-[-10vh] ">
                 <Post/>
             </div>
             <div className="mt-[700px] ml-[-623px]">
