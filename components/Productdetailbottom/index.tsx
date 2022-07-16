@@ -1,13 +1,15 @@
+import Flash from "../Flash";
 const Productdetailbottom = () =>
 {
 return(
     <div className="left-0 top-[205px] w-[2440px] h-[2408px] absolute bg-slate-100">
 
-        <div className="absolute left-[5.62rem] top-[4rem] w-[1232px] h-[2008px]">
-        <div className="absolute w-[2440] h-[512px] bg-white">
+        <div className="absolute left-[5.62rem] top-[4rem] w-[1232px] h-[1908px]">
+
             <p className="grocery">
                 Grocery {'>'} Fruits {'>'} Japan Oranges
             </p>
+            
             <div className="imgholder7 mt-[-40vh] ml-[-14vh]"></div>
              <div className="imgholder8 mt-[100vh]"></div>
 
@@ -88,11 +90,17 @@ return(
 
                 <p className="reviewdesc ml-[12vh] mt-[25vh]">Thank you for the article that was made, it really provides insight and knowledge that I didn't know before.</p>
                 
+                    
+            </div>
+            <div className=" w-[2440px] h-[545px] ml-[-20vh] mt-[-118vh] bg-white">
+            </div>
+            <div className="absolute top-[360vh] ml-[-25vh]">
+            <Flash />
             </div>
         </div>
 
 
-        </div>
+
         
     </div>
     )

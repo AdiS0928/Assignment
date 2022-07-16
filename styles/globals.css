@@ -962,16 +962,14 @@ background-color: #FFFFFF;
   position: absolute;
 width: 2044px;
 height: 960px;
-left: -312px;
-top: 2966px;
+
 }
 
 .flashcon{
   position: absolute;
 width: 1442px;
 height: 960px;
-left: -1px;
-top: 2966px;
+
 
 /* Light/System Background/Primary */
 
@@ -982,8 +980,7 @@ background: #FFFFFF;
   position: absolute;
 width: 551px;
 height: 58px;
-top:20vh;
-left:55vw;
+
 
 /* Heading/H2 Bold */
 
@@ -1006,8 +1003,7 @@ color: #11142D;
   position: absolute;
 width: 732px;
 height: 40px;
-top: 35vh;
-left: 50vw;
+
 
 /* Body/Body 1 Regular */
 
@@ -2555,4 +2551,314 @@ color: #11142D;
   
   color: #515151;
   
+}
+
+.sc{
+  position: absolute;
+  width: 226px;
+  height: 19px;
+
+  
+  /* Menu/Menu 1 Bold */
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  
+  letter-spacing: 0.005em;
+  
+  /* Light/Text Color/Title */
+  
+  color: #11142D;
+  
+}
+
+.check{
+  position: absolute;
+  width: 193px;
+  height: 19px;
+
+  
+  /* Menu/Menu 1 Bold */
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  
+  letter-spacing: 0.005em;
+  
+  /* Light/Text Color/Body 2 */
+  
+  color: #9A9AB0;
+  
+}
+
+.cartheadd{
+  position: absolute;
+width: 187px;
+height: 58px;
+
+
+/* Heading/H2 Bold */
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Title */
+
+color: #11142D;
+}
+
+.imgholder12{
+  position: absolute;
+width: 200px;
+height: 200px;
+
+
+/* Light/Fills Color/Image Placeholder */
+
+background: #E2E2EA;
+border-radius: 4px;
+}
+
+.cartcardhead{
+  position: absolute;
+  width: 193px;
+  height: 29px;
+
+  
+  /* Heading/H5 Bold */
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+  
+  letter-spacing: 0.005em;
+  
+  /* Light/Text Color/Title */
+  
+  color: #11142D;
+  
+}
+
+.cartcardsmall{
+  position: absolute;
+  width: 94px;
+  height: 19px;
+
+  
+  /* Menu/Menu 1 Bold */
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  
+  letter-spacing: 0.005em;
+  
+  /* Light/Text Color/Title */
+  
+  color: #11142D;
+}
+
+.cartcardsmalll{
+  position: absolute;
+  width: 194px;
+  height: 19px;
+
+  
+  /* Menu/Menu 1 Bold */
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  
+  letter-spacing: 1em;
+  
+  /* Light/Text Color/Title */
+  
+  color: #11142D;
+}
+
+
+.cartcardprice{
+  position: absolute;
+  height: 62px;
+
+
+  
+  /* Heading/H1 Bold */
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 120%;
+  /* or 74px */
+  
+  letter-spacing: 0.003em;
+  
+  /* Light/Secondary Color/50% */
+  
+  color: #F86338;
+}
+
+.cartinput{
+  box-sizing: border-box;
+
+position: absolute;
+width: 406px;
+height: 56px;
+
+/* Light/Fills Color/Text Field */
+
+background: #FFFFFF;
+/* Light/Secondary Color/50% */
+
+border: 1px solid #F86338;
+border-radius: 8px;
+}
+
+.cartinputtxt{
+  position: absolute;
+width: 142px;
+height: 18px;
+
+
+/* Body/Body 2 Regular */
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+
+letter-spacing: 0.008em;
+
+/* Light/Text Color/Body 2 */
+
+color: #9A9AB0;
+}
+
+.cctext{
+  position: absolute;
+width: 202px;
+height: 19px;
+
+
+/* Menu/Menu 1 Regular */
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Title */
+
+color: #11142D;
+
+}
+
+.cctextorng{
+  position: absolute;
+width: 60px;
+height: 19px;
+
+
+/* Menu/Menu 1 Bold */
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+letter-spacing: 0.005em;
+
+/* Light/Secondary Color/50% */
+
+color: #F86338;
+}
+
+.ccprice{
+  position: absolute;
+width: 41px;
+height: 19px;
+
+
+/* Menu/Menu 1 Bold */
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Title */
+
+color: #11142D;
+}
+
+.ccbut{
+  position: absolute;
+  width: 507px;
+  height: 56px;
+  
+  /* Light/Secondary Color/50% */
+  
+  background: #F86338;
+  border-radius: 8px;
+}
+
+.ccbuttxt{
+  width: 76px;
+  height: 19px;
+  
+  /* Menu/Menu 1 Bold */
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  
+
+  letter-spacing: 0.005em;
+  
+  /* Light/Text Link Color/White */
+  
+  color: #FFFFFF;
+  
+  
+
 }

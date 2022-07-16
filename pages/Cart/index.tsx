@@ -5,6 +5,7 @@ import Homebuttom from '../../components/Homebottom'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Hero from '../../components/Homenobtn'
+import Cartbottom from '../../components/Cartbottom'
 
 
 
@@ -20,6 +21,9 @@ return(
 Your Dreams!" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
         </div>
+
+        <Cartbottom />
+
     {/* <div className="left-0">
     <Footer />
     </div> */}

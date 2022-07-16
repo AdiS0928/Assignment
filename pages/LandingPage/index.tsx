@@ -14,9 +14,14 @@ return(
     <div>
     <Homepage/>
     <Premium text="Our Premium Collection"/>
+    <div className='mt-[450vh] ml-[-15vh] absolute'>
+
     <Flash />
+    </div>
+    
+
     <Homebuttom />
-    <div className="mt-[8100px] left-0">
+<div className='mt-[1250vh] absolute'>
     <Footer />
     </div>
     </div>

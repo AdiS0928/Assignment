@@ -9,13 +9,20 @@ const ProductDetail = () =>
         <div>
             <Header/>
             <div>
-                <Productdetailbottom />
-   
-                <Flash />
 
-                {/* <div className="left-0 mt-[4000px] ">
+                    
+                <Productdetailbottom />
+                
+
+        
+  
+                <div className='absolute w-[2440px] h-[40vh] bg-slate-100 mt-[-40vh]'>
+
+                </div>
+
+                <div className="left-0 mt-[3800px] ">
                 <Footer />
-                </div> */}
+                </div>
             </div>
         </div>
     )

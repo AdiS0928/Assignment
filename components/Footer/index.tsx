@@ -1,7 +1,7 @@
 const Footer = () =>
 {
     return(
-        <div className="w-[1440px] h-[476px] bg-white">
+        <div className="w-[1440px] h-[476px] bg-white absolute">
             <p className="foothead ml-[70vh] mt-[10vh]">Dealerz.</p>
             <div className="w-[200px] h-[40px] absolute flex ml-[160vh] mt-[14vh]">
                <button> <img src="/yt.png" alt="" className=""/></button>
