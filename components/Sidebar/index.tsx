@@ -24,7 +24,7 @@ return(
     <div className="w-[296px] h-[1312px]">
         <div className="shopbar mt-[20vh] ml-[15vh]">
             <p className="shoptext mt-[2.5vh] ml-[3vh]">Search products</p>
-            <img src="/Vectorsearchlogo.png" alt="" className="ml-[40vh] mt-[2.5vh]"/>
+            <img src="/Vectorsearchlogo.png" alt="" className="ml-[36vh] mt-[2.5vh]"/>
         </div>
 
         <div className="w-[296px] h-[98px] ml-[15vh] absolute">
@@ -81,7 +81,7 @@ return(
                 </div>
 
         </div>
-                <div className="mt-[35vh]">
+                <div className="mt-[40vh]">
                 <Featurecard image={User[0].image} name={User[0].title.split(' ').slice(0, 3).join(' ')} price={User[0].price}/>
                 </div>
                 <div className="mt-[5vh]">
